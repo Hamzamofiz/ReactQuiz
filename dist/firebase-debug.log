@@ -1,0 +1,40 @@
+[debug] [2026-07-17T16:00:32.786Z] ----------------------------------------------------------------------
+[debug] [2026-07-17T16:00:32.792Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-07-17T16:00:32.792Z] CLI Version:   15.24.0
+[debug] [2026-07-17T16:00:32.793Z] Platform:      win32
+[debug] [2026-07-17T16:00:32.793Z] Node Version:  v24.16.0
+[debug] [2026-07-17T16:00:32.793Z] Detected Agent: unknown
+[debug] [2026-07-17T16:00:32.794Z] Time:          Fri Jul 17 2026 21:00:32 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-07-17T16:00:32.794Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL\Desktop\react-quiz\React-Quiz\dist
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-07-17T16:00:45.567Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-17T16:00:45.568Z] > authorizing via signed-in user (hamzamofiz02@gmail.com)
+[debug] [2026-07-17T16:00:45.602Z] Checked if tokens are valid: true, expires at: 1784307603859
+[debug] [2026-07-17T16:00:45.603Z] Checked if tokens are valid: true, expires at: 1784307603859
+[debug] [2026-07-17T16:00:45.606Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/peten-pet [none]
+[debug] [2026-07-17T16:00:46.791Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/peten-pet 403
+[debug] [2026-07-17T16:00:46.791Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/peten-pet {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-07-17T16:00:46.793Z] Request to https://firebase.googleapis.com/v1beta1/projects/peten-pet had HTTP Error: 403, The caller does not have permission
+[debug] [2026-07-17T16:00:47.809Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/peten-pet had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[error] 
+[error] Error: Failed to get Firebase project peten-pet. Please make sure the project exists and your account has permission to access it.
