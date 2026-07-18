@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Login from './pages/login.jsx'
-import Singup from './pages/singup.jsx'
+import Login from './pages/Login.jsx'
+import Singup from './pages/Singup.jsx'
 import Hero from './pages/Hero.jsx'
 import Quiz from './pages/Quiz.jsx'
 import { Routes, Route, Navigate } from 'react-router-dom'

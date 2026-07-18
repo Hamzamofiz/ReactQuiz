@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Singup from '../assets/Singup.png'
+import Singup from '../assets/singup.png'
 import { useNavigate, Link } from 'react-router-dom'
 import { auth } from '../Firebase/Auth.js'
 import { signInWithEmailAndPassword } from 'firebase/auth'
